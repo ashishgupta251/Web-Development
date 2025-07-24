@@ -1,0 +1,40 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node.js
+node_modules/
+.env
+package-lock.json
+
+# VSCode
+.vscode/
+
+# Build outputs
+dist/
+build/
+
+# System files
+*.swp
+*.swo
+
+# Mac
+._*
+
+# Windows
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+
+# HTML/CSS/JS temp files
+*.cache
+*.sass-cache
+*.scss-cache
+*.css.map
+*.js.map
