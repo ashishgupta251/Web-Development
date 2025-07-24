@@ -9,7 +9,7 @@ This repo includes:
 - ✅ HTML notes with examples and explanations  
 - 🟡 CSS notes and styling projects (Coming Soon)  
 - 🟠 JavaScript notes with interactive examples (Coming Soon)  
-- 💻 Mini Projects to practice front-end skills
+- 💻 Projects to practice front-end skills
 
 ---
 
@@ -19,7 +19,7 @@ Check out the HTML notes live:
 
 ---
 
-## 📌 Topics Covered So Far
+## 📌 HTML Topics Covered So Far
 
 - Text Formatting Tags
 - Lists (ul, ol, nested)
@@ -35,7 +35,7 @@ Check out the HTML notes live:
 
 - CSS Basics & Styling Concepts  
 - JavaScript Basics with DOM manipulation  
-- Mini Projects (Quiz App, Form Validator, etc.)
+- Mini Projects
 
 ---
 
