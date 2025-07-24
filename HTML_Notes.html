@@ -1,0 +1,184 @@
+<!--! is used for writing raw code-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Notes by Ashish</title>
+</head>
+<body>
+    <h1>HTML Notes</h1>
+
+    <section>
+        <h2>Text Formatting Tags</h2>
+        <h1>This is for biggest font height</h1>
+        <h6>This is for smallest font height</h6>
+        <q>This tag is used for enclosing a word or sentence in double inverted commas</q><br>
+        <u>For underlining the text</u><br>
+        <i>For italic text</i><br>
+        <s>For strike through text</s><br>
+        <b>For bold text</b><br>
+        <div style="text-align: center;">For centering the text</div><br>
+        <p>H<sub>2</sub>O</p>
+        <p>2<sup>2</sup>=4</p>
+        <pre>For preformatted text</pre>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Paragraph and Divider</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatum natus eligendi labore. Distinctio, eaque minima. Nihil in saepe consectetur quas excepturi ratione perspiciatis, autem aliquam laboriosam deleniti distinctio perferendis qui soluta modi fuga eligendi! Porro, nulla ipsam sit ducimus autem minima, debitis quae id amet voluptate deleniti provident maiores!.</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Containers</h2>
+        <div>For creating a div</div>
+        <span>For creating a span</span>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Links and Images</h2>
+        <a href="https://www.youtube.com/watch?v=HcOc7P5BMi4&t=4952s&ab_channel=ApnaCollege" target="_blank">HTML Course</a><br>
+        <img src="https://static.vecteezy.com/system/resources/previews/013/734/184/original/3d-google-logo-google-is-usa-multinational-corporation-free-vector.jpg" alt="Google" height="100">
+        <br>
+        <a href="https://google.com" target="_blank">
+            <img src="https://static.vecteezy.com/system/resources/previews/013/734/184/original/3d-google-logo-google-is-usa-multinational-corporation-free-vector.jpg" alt="Google" height="100">
+        </a>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Lists</h2>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Apple
+                <ul>
+                    <li>Colour: Red</li>
+                    <li>Season: Autumn</li>
+                </ul>
+            </li>
+            <li>Mango
+                <ul>
+                    <li>Colour: Yellow</li>
+                    <li>Season: Summer</li>
+                </ul>
+            </li>
+            <li>Lichi
+                <ul>
+                    <li>Colour: Red</li>
+                    <li>Season: Autumn</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Apple
+                <ol>
+                    <li>Colour: Red</li>
+                    <li>Season: Autumn</li>
+                </ol>
+            </li>
+            <li>Mango
+                <ol>
+                    <li>Colour: Yellow</li>
+                    <li>Season: Summer</li>
+                </ol>
+            </li>
+            <li>Lichi
+                <ol>
+                    <li>Colour: Red</li>
+                    <li>Season: Autumn</li>
+                </ol>
+            </li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Tables</h2>
+        <table border="1">
+            <caption>Student Data</caption>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Age</th>
+                    <th>Branch</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Ashish</td><td>18</td><td>Computer Science</td></tr>
+                <tr><td>Bhagirath</td><td>20</td><td>Artificial Intelligence</td></tr>
+                <tr><td>Atul</td><td>19</td><td>Data Science</td></tr>
+                <tr><td>Ankit</td><td>18</td><td>IOT</td></tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <table border="1">
+            <caption>Student Data (Colspan Example)</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Ashish</td><td>18</td></tr>
+                <tr><td>Bhagirath</td><td>20</td></tr>
+                <tr><td>Atul</td><td>19</td></tr>
+                <tr><td>Ankit</td><td>18</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Form</h2>
+        <form action="/action.php">
+            <input type="text" name="username" placeholder="Enter your name">
+            <input type="number" name="age" placeholder="Enter your age"><br>
+            <input type="password" name="password" placeholder="Enter password">
+
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label><br>
+
+            <select name="city">
+                <option value="delhi">Delhi</option>
+                <option value="jaipur">Jaipur</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="alwar">Alwar</option>
+            </select><br>
+
+            <textarea name="Feedback" placeholder="Please give your valuable feedback" rows="5" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+            <label><input type="checkbox" name="remember" value="remember me"> Remember me</label>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Embedding Content</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=54ESh2BW1uSTcnDO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <br><br>
+
+        <iframe src="https://www.wikipedia.org/" width="1000" height="500"></iframe>
+
+        <br><br>
+
+        <video width="560" height="315" src="" controls loop></video>
+    </section>
+
+</body>
+</html>
