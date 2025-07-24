@@ -15,7 +15,7 @@ This repo includes:
 
 ## 🌐 Live Site
 Check out the HTML notes live:  
-[https://your-username.github.io/html-notes/](https://your-username.github.io/html-notes/)  
+(https://github.com/ashishgupta251/Web-Development/blob/main/HTML_Notes.html)
 
 ---
 
